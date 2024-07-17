@@ -358,6 +358,9 @@ namespace big
 
 		functions::can_create_vehicle m_can_create_vehicle;
 
+		uintptr_t* m_cam_gameplay_director;
+		functions::cam_gameplay_directory_update m_cam_gameplay_director_update;
+    
 		PVOID m_format_int;
     
 		PVOID m_searchlight_crash;
